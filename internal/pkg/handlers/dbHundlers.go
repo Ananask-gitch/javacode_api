@@ -7,14 +7,14 @@ import (
 	"testapp/internal/pkg/models"
 )
 
-func HandlerHello(w http.ResponseWriter) {
+func (h handler) Hello(w http.ResponseWriter, r *http.Request) {
 	results := "hello"
 	w.Header().Add("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
 	json.NewEncoder(w).Encode(&results)
 }
 
-func (h handler) HandlerGetBalance(w http.ResponseWriter, r *http.Request) {
+func (h handler) GetBalance(w http.ResponseWriter, r *http.Request) {
 
 	id := r.PathValue("WALLET_UUID")
 	var wallet = models.Wallet{}
@@ -31,7 +31,7 @@ func (h handler) HandlerGetBalance(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(&wallet.Amount)
 }
 
-func (h handler) HandlerUpdateBalance(w http.ResponseWriter, r *http.Request) {
+func (h handler) UpdateBalance(w http.ResponseWriter, r *http.Request) {
 
 	type Jsonvalues struct {
 		ValletId      uint64 `json:"vallet_id"`

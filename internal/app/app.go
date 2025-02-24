@@ -15,23 +15,16 @@ func Run() {
 
 	c, err := app.LoadConfig(".")
 	if err != nil {
-		log.Println(err)
-	}
-
-	c, err = app.LoadConfig("..")
-	if err != nil {
-		log.Println(err)
+		log.Fatalln(err)
 	}
 
 	mux := web.NewMux()
 	DB := storage.DatabaseInit(c)
 	h := handlers.New(DB)
 
-	go mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("Hello, world!"))
-	})
-	go mux.HandleFunc("GET /api/v1/wallets/{WALLET_UUID}", h.HandlerGetBalance)
-	go mux.HandleFunc("POST /api/v1/wallet", h.HandlerUpdateBalance)
+	go mux.HandleFunc("GET /", h.Hello)
+	go mux.HandleFunc("GET /api/v1/wallets/{WALLET_UUID}", h.GetBalance)
+	go mux.HandleFunc("POST /api/v1/wallet", h.UpdateBalance)
 
 	http.ListenAndServe(c.APPPort, mux)
 	w := fmt.Sprint()

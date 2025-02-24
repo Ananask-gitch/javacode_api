@@ -1,0 +1,31 @@
+services:
+  db:
+    image: postgres:17-alpine3.21
+    restart: always
+    env_file: "config.env"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks: 
+    - default
+    ports:
+    - 5432:5432
+    expose:
+      - 5432
+  app:
+    build: .
+    env_file: "config.env"
+    command: ./main
+    depends_on:
+      db: 
+        condition: service_healthy
+    ports:
+      - 8080:8080
+    links:
+      - db
+    networks:
+      - default
+networks: 
+ default:

@@ -19,7 +19,10 @@ func DatabaseInit(config app.Config) *gorm.DB {
 		log.Printf("Ошибка подключения базы данных: %v", err)
 		dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s sslmode=disable ",
 			config.DBHost, config.DBPort, config.DBUser, config.DBPassword)
-		db, _ := gorm.Open(postgres.Open(dsn), &gorm.Config{})
+		db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
+		if err != nil {
+			log.Fatalf("Ошибка подключения к постгрес %v", err)
+		}
 		createDatabaseCommand := fmt.Sprintf("CREATE DATABASE %s", config.DBName)
 		db.Exec(createDatabaseCommand)
 	}
