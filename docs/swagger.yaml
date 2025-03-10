@@ -1,0 +1,88 @@
+definitions:
+  routers.UpdateBalance.Request:
+    properties:
+      amount:
+        type: integer
+      operation_type:
+        type: string
+      vallet_id:
+        type: integer
+    type: object
+info:
+  contact: {}
+paths:
+  /api/v1/wallet/{WALLET_UUID}:
+    get:
+      consumes:
+      - application/json
+      description: Берет id кошелька и возвращает по нему баланс
+      parameters:
+      - description: Wallet ID
+        in: path
+        name: WALLET_UUID
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: баланс кошелька
+          schema:
+            type: integer
+        "400":
+          description: Кошелек не найден
+          schema:
+            type: string
+      summary: Вывод баланса кошелька
+      tags:
+      - General
+  /api/v1/wallet/update_balance:
+    post:
+      consumes:
+      - application/json
+      description: по входным данным выдает операцию
+      parameters:
+      - description: query params
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/routers.UpdateBalance.Request'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: операция успешна
+          schema:
+            type: string
+        "400":
+          description: некорректный json/некорректное значение/недостаточно средств
+          schema:
+            type: string
+        "404":
+          description: пользователь не найден
+          schema:
+            type: string
+      summary: пополнение кошелька
+      tags:
+      - General
+  /api/v1/wallets:
+    get:
+      consumes:
+      - application/json
+      description: выводит все кошельки
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: операция успешна
+          schema:
+            type: string
+        "404":
+          description: кршельков нет
+          schema:
+            type: string
+      summary: кошельки
+      tags:
+      - General
+swagger: "2.0"

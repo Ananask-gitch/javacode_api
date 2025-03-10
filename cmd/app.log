@@ -1,0 +1,127 @@
+{"time":"2025-03-10T00:00:51.5152621+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T00:01:15.4364564+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:62121"}
+{"time":"2025-03-10T00:02:07.963054+03:00","level":"INFO","msg":"функция UpdateBalance успешно выполнена","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T00:02:07.9638694+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:62121","duration":52527413000}
+{"time":"2025-03-10T00:03:00.485886+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/2","remote_addr":"[::1]:62121"}
+{"time":"2025-03-10T00:03:00.4865638+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"2"}
+{"time":"2025-03-10T00:03:00.488514+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/2","remote_addr":"[::1]:62121","duration":3144000}
+{"time":"2025-03-10T00:03:16.4339016+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/3","remote_addr":"[::1]:62121"}
+{"time":"2025-03-10T00:03:16.4346322+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"3"}
+{"time":"2025-03-10T00:03:16.4360025+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/3","remote_addr":"[::1]:62121","duration":2100900}
+{"time":"2025-03-10T00:03:51.2563874+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/3","remote_addr":"[::1]:62121"}
+{"time":"2025-03-10T00:03:57.6791647+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"3"}
+{"time":"2025-03-10T00:05:26.0100871+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/3","remote_addr":"[::1]:62121","duration":94753699700}
+{"time":"2025-03-10T00:07:02.8182773+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/56","remote_addr":"[::1]:62121"}
+{"time":"2025-03-10T00:07:12.8378486+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"56"}
+{"time":"2025-03-10T00:07:38.8006162+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/56","remote_addr":"[::1]:62121","duration":35982338900}
+{"time":"2025-03-10T21:17:13.694707+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:17:29.3785321+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/index.html","remote_addr":"[::1]:60655"}
+{"time":"2025-03-10T21:17:29.380304+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/index.html","remote_addr":"[::1]:60655","duration":1771900}
+{"time":"2025-03-10T21:17:29.4270617+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-bundle.js","remote_addr":"[::1]:60655"}
+{"time":"2025-03-10T21:17:29.4270617+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui.css","remote_addr":"[::1]:60656"}
+{"time":"2025-03-10T21:17:29.4284973+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-standalone-preset.js","remote_addr":"[::1]:60657"}
+{"time":"2025-03-10T21:17:29.4455622+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui.css","remote_addr":"[::1]:60656","duration":18500500}
+{"time":"2025-03-10T21:17:29.4661636+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-standalone-preset.js","remote_addr":"[::1]:60657","duration":37666300}
+{"time":"2025-03-10T21:17:29.4919647+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-bundle.js","remote_addr":"[::1]:60655","duration":64903000}
+{"time":"2025-03-10T21:17:29.7462773+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/doc.json","remote_addr":"[::1]:60655"}
+{"time":"2025-03-10T21:17:29.7473045+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/doc.json","remote_addr":"[::1]:60655","duration":1027200}
+{"time":"2025-03-10T21:17:29.8935909+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/favicon-32x32.png","remote_addr":"[::1]:60655"}
+{"time":"2025-03-10T21:17:29.8956195+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/favicon-32x32.png","remote_addr":"[::1]:60655","duration":2028600}
+{"time":"2025-03-10T21:17:59.9149046+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/10","remote_addr":"[::1]:60655"}
+{"time":"2025-03-10T21:18:16.9924943+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"10"}
+{"time":"2025-03-10T21:19:41.4193413+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/10","remote_addr":"[::1]:60655","duration":101504436700}
+{"time":"2025-03-10T21:23:27.4263545+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:23:43.1445112+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/index.html","remote_addr":"[::1]:60766"}
+{"time":"2025-03-10T21:23:43.151241+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/index.html","remote_addr":"[::1]:60766","duration":6729800}
+{"time":"2025-03-10T21:23:43.2208185+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-bundle.js","remote_addr":"[::1]:60767"}
+{"time":"2025-03-10T21:23:43.2448397+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui.css","remote_addr":"[::1]:60766"}
+{"time":"2025-03-10T21:23:43.2548856+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-standalone-preset.js","remote_addr":"[::1]:60768"}
+{"time":"2025-03-10T21:23:43.2577097+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui.css","remote_addr":"[::1]:60766","duration":12870000}
+{"time":"2025-03-10T21:23:43.2624499+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-standalone-preset.js","remote_addr":"[::1]:60768","duration":7564300}
+{"time":"2025-03-10T21:23:43.2711656+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-bundle.js","remote_addr":"[::1]:60767","duration":50347100}
+{"time":"2025-03-10T21:23:43.4107389+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/doc.json","remote_addr":"[::1]:60767"}
+{"time":"2025-03-10T21:23:43.4112585+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/doc.json","remote_addr":"[::1]:60767","duration":519600}
+{"time":"2025-03-10T21:23:43.4610116+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/favicon-32x32.png","remote_addr":"[::1]:60767"}
+{"time":"2025-03-10T21:23:43.4768322+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/favicon-32x32.png","remote_addr":"[::1]:60767","duration":15820600}
+{"time":"2025-03-10T21:23:52.8224975+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/10","remote_addr":"[::1]:60767"}
+{"time":"2025-03-10T21:24:01.5538909+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"10"}
+{"time":"2025-03-10T21:24:50.2790799+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:25:14.2351771+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/10","remote_addr":"[::1]:60815"}
+{"time":"2025-03-10T21:25:21.8377161+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"10"}
+{"time":"2025-03-10T21:25:35.2621987+03:00","level":"INFO","msg":"кошелек не найден","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:25:53.2947209+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/10","remote_addr":"[::1]:60815","duration":39059543800}
+{"time":"2025-03-10T21:26:35.6606257+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:27:03.3912586+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/2","remote_addr":"[::1]:60847"}
+{"time":"2025-03-10T21:27:09.5311802+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"2"}
+{"time":"2025-03-10T21:27:25.6082929+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/2","remote_addr":"[::1]:60847","duration":22217034300}
+{"time":"2025-03-10T21:27:50.8270663+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/10","remote_addr":"[::1]:60847"}
+{"time":"2025-03-10T21:27:55.0278799+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"10"}
+{"time":"2025-03-10T21:27:55.0406652+03:00","level":"INFO","msg":"кошелек не найден","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:27:55.0406652+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/10","remote_addr":"[::1]:60847","duration":4213598900}
+{"time":"2025-03-10T21:29:17.2716796+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:29:34.4073687+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/10","remote_addr":"[::1]:60876"}
+{"time":"2025-03-10T21:29:38.4871302+03:00","level":"INFO","msg":"начало получения баланса кошелька: [*id = UUID кошелбка*]","app-version":"v0.0.1-beta","id:":"10"}
+{"time":"2025-03-10T21:29:38.4912279+03:00","level":"INFO","msg":"кошелек не найден","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:29:38.5001747+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallet/10","remote_addr":"[::1]:60876","duration":4092806000}
+{"time":"2025-03-10T21:35:27.4990285+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:36:34.191883+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:60955"}
+{"time":"2025-03-10T21:36:47.2275161+03:00","level":"INFO","msg":"кошелек не найден","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:36:58.6781258+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:60955","duration":24486242800}
+{"time":"2025-03-10T21:44:05.1115367+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61030"}
+{"time":"2025-03-10T21:44:12.471188+03:00","level":"INFO","msg":"некорректный json","app-version":"v0.0.1-beta","error":"json: cannot unmarshal number -2000 into Go struct field Request.amount of type uint64"}
+{"time":"2025-03-10T21:44:18.0023975+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61030","duration":12890249100}
+{"time":"2025-03-10T21:44:44.0100391+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61030"}
+{"time":"2025-03-10T21:45:03.8948956+03:00","level":"INFO","msg":"функция UpdateBalance успешно выполнена","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:45:13.0994184+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61030","duration":29089379300}
+{"time":"2025-03-10T21:45:44.23011+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61030"}
+{"time":"2025-03-10T21:45:59.4727018+03:00","level":"INFO","msg":"кошелек не найден","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T21:46:28.6017091+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61030","duration":44371599100}
+{"time":"2025-03-10T22:00:56.0811183+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:01:12.4182551+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61279"}
+{"time":"2025-03-10T22:01:22.8537191+03:00","level":"INFO","msg":"кошелек не найден","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:01:44.5078552+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61279","duration":32089600100}
+{"time":"2025-03-10T22:12:59.1885006+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:13:13.4917444+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61414"}
+{"time":"2025-03-10T22:13:26.6781377+03:00","level":"INFO","msg":"кошелек не найден","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:13:35.0582141+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61414","duration":21566469700}
+{"time":"2025-03-10T22:14:40.6213484+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61414"}
+{"time":"2025-03-10T22:15:01.3257722+03:00","level":"INFO","msg":"недостаточно средств","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:15:11.3469014+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61414","duration":30725553000}
+{"time":"2025-03-10T22:27:49.1464382+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:29:31.9054677+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:29:36.0549606+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/index.html","remote_addr":"[::1]:61619"}
+{"time":"2025-03-10T22:29:36.0621215+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/index.html","remote_addr":"[::1]:61619","duration":7160900}
+{"time":"2025-03-10T22:29:36.0827132+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-standalone-preset.js","remote_addr":"[::1]:61621"}
+{"time":"2025-03-10T22:29:36.0847401+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-bundle.js","remote_addr":"[::1]:61620"}
+{"time":"2025-03-10T22:29:36.0867534+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui.css","remote_addr":"[::1]:61619"}
+{"time":"2025-03-10T22:29:36.0867534+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui.css","remote_addr":"[::1]:61619","duration":0}
+{"time":"2025-03-10T22:29:36.1117911+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-standalone-preset.js","remote_addr":"[::1]:61621","duration":29077900}
+{"time":"2025-03-10T22:29:36.1135072+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/swagger-ui-bundle.js","remote_addr":"[::1]:61620","duration":28767100}
+{"time":"2025-03-10T22:29:36.7064919+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/doc.json","remote_addr":"[::1]:61620"}
+{"time":"2025-03-10T22:29:36.7113697+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/doc.json","remote_addr":"[::1]:61620","duration":4877800}
+{"time":"2025-03-10T22:29:36.8882576+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/favicon-32x32.png","remote_addr":"[::1]:61620"}
+{"time":"2025-03-10T22:29:36.8882576+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/swagger/favicon-32x32.png","remote_addr":"[::1]:61620","duration":0}
+{"time":"2025-03-10T22:29:54.7817972+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620"}
+{"time":"2025-03-10T22:29:54.7817972+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620","duration":0}
+{"time":"2025-03-10T22:32:20.994423+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620"}
+{"time":"2025-03-10T22:32:20.994423+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620","duration":0}
+{"time":"2025-03-10T22:32:38.1564357+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620"}
+{"time":"2025-03-10T22:32:38.1564357+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620","duration":0}
+{"time":"2025-03-10T22:32:54.625855+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620"}
+{"time":"2025-03-10T22:32:54.625855+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620","duration":0}
+{"time":"2025-03-10T22:33:18.841473+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620"}
+{"time":"2025-03-10T22:33:18.841473+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61620","duration":0}
+{"time":"2025-03-10T22:33:36.5081717+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:33:49.9409993+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61666"}
+{"time":"2025-03-10T22:33:49.9497372+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61666","duration":8737900}
+{"time":"2025-03-10T22:34:16.9505249+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets/1","remote_addr":"[::1]:61666"}
+{"time":"2025-03-10T22:34:16.9505249+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets/1","remote_addr":"[::1]:61666","duration":0}
+{"time":"2025-03-10T22:34:20.4990743+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61666"}
+{"time":"2025-03-10T22:34:20.4996013+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61666","duration":527000}
+{"time":"2025-03-10T22:36:10.5063337+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:36:54.1057508+03:00","level":"INFO","msg":"Starting server on :8080","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:37:11.7237764+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61720"}
+{"time":"2025-03-10T22:37:29.3936271+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"GET","path":"/api/v1/wallets","remote_addr":"[::1]:61720","duration":17669850700}
+{"time":"2025-03-10T22:38:07.5920121+03:00","level":"INFO","msg":"Request started","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61720"}
+{"time":"2025-03-10T22:38:15.1822666+03:00","level":"INFO","msg":"недостаточно средств","app-version":"v0.0.1-beta"}
+{"time":"2025-03-10T22:38:15.1827807+03:00","level":"INFO","msg":"Request completed","app-version":"v0.0.1-beta","method":"POST","path":"/api/v1/wallet/update_balance","remote_addr":"[::1]:61720","duration":7590768600}

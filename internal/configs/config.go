@@ -1,4 +1,4 @@
-package app
+package app_config
 
 import (
 	"github.com/spf13/viper"
@@ -9,11 +9,11 @@ type Config struct {
 	DBPort     string `mapstructure:"DB_PORT"`
 	DBName     string `mapstructure:"DB_NAME"`
 	DBUser     string `mapstructure:"DB_USER"`
-	DBPassword string `mapstructure:"DB_PASSWORD"`
-	APPPort    string `mapstructure:"APP_PORT"`
+	DBPassword string `mapstructure:"DB_PASS"`
 }
 
 func LoadConfig(patch string) (config Config, err error) {
+
 	viper.AddConfigPath(patch)
 	viper.SetConfigName("config")
 	viper.SetConfigType("env")

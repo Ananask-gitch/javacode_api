@@ -12,12 +12,12 @@ import (
 
 func DatabaseInit(config app.Config) *gorm.DB {
 
-	dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable ",
+	dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
 		config.DBHost, config.DBPort, config.DBUser, config.DBPassword, config.DBName)
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Printf("Ошибка подключения базы данных: %v", err)
-		dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s sslmode=disable ",
+		dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s sslmode=disable",
 			config.DBHost, config.DBPort, config.DBUser, config.DBPassword)
 		db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 		if err != nil {
